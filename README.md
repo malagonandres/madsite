@@ -2,7 +2,7 @@
 
 ## Create the app ##
 
-* Build a new app. (I prefer to setup with some flags)
+Build a new app. (I prefer to setup with some flags)
 
 ```
 #!bash
@@ -10,7 +10,7 @@
 ng new <YOUR_PROJECT_NAME> -s -S --routing --style=styl
 ```
 
-* Get inside de folder that has been created
+Get inside de folder that has been created
 
 
 ```
@@ -19,7 +19,8 @@ cd <YOUR_PROJECT_NAME>
 
 ```
 
-* We are going to follow the steps presented in [angularfire](https://github.com/angular/angularfire) with some updates
+## Add Universal SSR to the app ##
+We are going to follow the steps presented in [angularfire](https://github.com/angular/angularfire) with some updates
 
 
 ```
@@ -155,6 +156,10 @@ Test your app locally by running npm run build && npm run serve:ssr.
 
 npm run build && npm run serve:ssr
 ```
+
+
+
+## Setup firebase in the app ##
 
 Then inside your project root, setup your Firebase CLI project:
 
